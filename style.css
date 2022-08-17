@@ -1,0 +1,61 @@
+body {
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#unt {
+    width: 80px;
+}
+
+#h1sec1 {
+    margin: 5px;
+}
+
+#h4sec1{
+    margin: 3px;
+    font-size: small;
+}
+
+#imgsec1 {
+    width: 100%;
+}
+
+#sec3{
+background-image: url("./assets/list-bg.png");
+display: grid;
+grid-template-columns: auto auto;
+}
+
+#sec4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.namesec4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    margin-left: 5px;
+}
+.interestsec4 {
+    margin-top: 30px;
+    margin-left: 1px;
+}
+
+
+#input {
+    background-color: tomato;
+    border-color: tomato;
+    border-radius: 2px;
+}
+footer {
+    text-align: center;
+}
